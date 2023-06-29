@@ -219,6 +219,7 @@ input[type="search"] {
 .img-container {
     display: flex;
     justify-content: flex-end;
+    margin-right: 10px;
     gap: 25px;
 }
 
