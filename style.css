@@ -7,10 +7,21 @@
     --btn-clr:white;
 }
 
+@font-face {
+    font-family: "Robotobold";
+    src: url(./fonts/Roboto-Bold.ttf) format(TrueType);
+}
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Robotobold", "san-serif";
 }
 
 ul {
@@ -160,8 +171,7 @@ input[type="search"] {
 }
 
 .projects span {
-    font-size: 2rem;
-    font-weight: bold;
+    font: 2rem "Robotobold", "sans-serif";
 }
 
 .projects img {
@@ -176,6 +186,7 @@ input[type="search"] {
     background-color: #FFFFFF;
     color: black;
     border: 1px solid black;
+    border-radius: 25px;
     height: 300px;
     padding: 5px;
     
