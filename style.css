@@ -209,14 +209,14 @@ input[type="search"] {
 
 .announcement-container {
     display: grid;
-    justify-content: space-around;
+   
     padding: 10px;
     border: 1px solid blue;
     border-radius: 25px;
     
 }
 
-.announcement-container div:nth-child(1n) {
+.announcements p:not(.not) {
     border-bottom: 1px solid black;
 }
 
@@ -226,6 +226,7 @@ input[type="search"] {
     border: 1px solid black;
     border-radius: 25px;
     gap: 25px;
+    padding: 15px;
 }
 
 .trending {
