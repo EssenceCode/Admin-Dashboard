@@ -93,7 +93,7 @@ input:-webkit-autofill:active{
     gap: 10px;
     padding: 25px;
     
-    grid-column: 2/4;
+    grid-column: 2;
 }
 
 .header img {
