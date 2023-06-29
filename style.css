@@ -12,6 +12,11 @@
     src: url(./fonts/Roboto-Bold.ttf) format(TrueType);
 }
 
+@font-face {
+    font-family: "Robotothin";
+    src: url(./fonts/Roboto-Thin.ttf) format(TrueType);
+}
+
 
 * {
     box-sizing: border-box;
@@ -73,6 +78,7 @@ input:-webkit-autofill:active{
     height: 50px;
 }
 
+
 .side-bar ul {
     display: grid;
     align-items: center;
@@ -92,6 +98,11 @@ input:-webkit-autofill:active{
 
 .header img {
     height: 50px;
+}
+
+.user-greeting p , 
+.user-notification p {
+    font: 1rem "Robotobold", "san-serif";
 }
 
 .search-container img {
@@ -175,6 +186,10 @@ input[type="search"] {
     font: 2rem "Robotobold", "sans-serif";
 }
 
+.projects p {
+    font: 1rem "Robotothin", "sans-serif";
+}
+
 .projects img {
     height: 25px;
 }
@@ -201,12 +216,6 @@ input[type="search"] {
     gap: 25px;
 }
 
-/* 
-.right-container {
-    display: grid;
-} */
-
-
 .announcement-container {
     display: grid;
    
@@ -220,6 +229,13 @@ input[type="search"] {
     border-bottom: 1px solid black;
 }
 
+.announcements span {
+    font: 1rem "Robotobold", "san-serif";
+}
+
+.announcements p {
+    font: 1rem "Robotothin", "san-serif";
+}
 
 .trending-container {
     display: grid;
@@ -231,4 +247,12 @@ input[type="search"] {
 
 .trending {
     display: flex;
+}
+
+.trending span {
+    font: 1rem "Robotobold", "san-serif";
+}
+
+.trending p {
+    font: 1rem "Robotothin", "san-serif";
 }
