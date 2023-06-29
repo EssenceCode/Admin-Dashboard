@@ -186,6 +186,19 @@ input[type="search"] {
     margin-left: 10px;
 }
 
+.projects {
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid black;
+    border-left: 10px solid orange;
+    border-radius: 25px;
+    height: 300px;
+    padding: 5px;
+    
+    display: grid;
+    align-items: center;
+}
+
 .projects span {
     font: 2rem "Robotobold", "sans-serif";
 }
@@ -202,17 +215,6 @@ input[type="search"] {
     height: 50px;
 }
 
-.projects {
-    background-color: #FFFFFF;
-    color: black;
-    border: 1px solid black;
-    border-radius: 25px;
-    height: 300px;
-    padding: 5px;
-    
-    display: grid;
-    align-items: center;
-}
 
 .img-container {
     display: flex;
@@ -224,7 +226,7 @@ input[type="search"] {
     display: grid;
    
     padding: 10px;
-    border: 1px solid blue;
+    border: 1px solid black;
     border-radius: 25px;
     background-color: white;
 }
