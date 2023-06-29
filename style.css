@@ -175,6 +175,8 @@ input[type="search"] {
     grid-column: span 2;
     grid-row: 2 / 4;
     gap:10px;
+
+    background-color: #f1f5f9;
 }
 
 .project-container {
@@ -224,7 +226,7 @@ input[type="search"] {
     padding: 10px;
     border: 1px solid blue;
     border-radius: 25px;
-    
+    background-color: white;
 }
 
 .announcements p:not(.not) {
@@ -245,6 +247,8 @@ input[type="search"] {
     border-radius: 25px;
     gap: 25px;
     padding: 15px;
+
+    background-color: white;
 }
 
 .trending {
